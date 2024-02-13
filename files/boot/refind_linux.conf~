@@ -1,0 +1,3 @@
+"Boot using default options"    "root=UUID=b06d8059-d6c6-47ca-aecd-e2e761cb8974 rw add_efi_memmap initrd=boot\intel-ucode.img initrd=boot\initramfs_%v.img"
+"Boot using fallback initramfs"    "root=UUID=b06d8059-d6c6-47ca-aecd-e2e761cb8974 rw add_efi_memmap initrd=boot\intel-ucode.img initrd=boot\initramfs_%v-fallback.img"
+"Boot to terminal"    "root=UUID=b06d8059-d6c6-47ca-aecd-e2e761cb8974 rw add_efi_memmap initrd=boot\intel-ucode.img initrd=boot\initramfs_%v.img systemd.unit=multi-user.target"

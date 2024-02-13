@@ -1,0 +1,42 @@
+# Wed 14 Feb 2024 00:34:24 AEDT - Unknown packages
+
+
+AddPackage base # Minimal package set to define a basic Arch Linux installation
+AddPackage base-devel # Basic tools to build Arch Linux packages
+AddPackage e2fsprogs # Ext2/3/4 filesystem utilities
+AddPackage emacs # The extensible, customizable, self-documenting real-time display editor
+AddPackage git # the fast distributed version control system
+AddPackage go # Core compiler tools for the Go programming language
+AddPackage intel-ucode # Microcode update files for Intel CPUs
+AddPackage linux # The Linux kernel and modules
+AddPackage linux-firmware # Firmware files for Linux
+AddPackage man-db # A utility for reading man pages
+AddPackage man-pages # Linux man pages
+AddPackage network-manager-applet # Applet for managing network connections
+AddPackage networkmanager # Network connection manager and user applications
+AddPackage nm-connection-editor # NetworkManager GUI connection editor and widgets
+AddPackage ntfs-3g # NTFS filesystem driver and utilities
+AddPackage pacman-contrib # Contributed scripts and tools for pacman systems
+AddPackage pkgstats # Submit a list of installed packages to the Arch Linux project
+AddPackage python-cachecontrol # Port of the caching algorithms in httplib2 for use with requests session object
+AddPackage python-dateutil # Provides powerful extensions to the standard datetime module
+AddPackage python-docopt # Pythonic argument parser, that will make you smile
+AddPackage python-feedparser # Parse RSS and Atom feeds in Python
+AddPackage python-html2text # A HTML to markdown-structured text converter
+AddPackage python-lockfile # Platform-independent file locking module
+AddPackage python-setuptools # Easily download, build, install, upgrade, and uninstall Python packages
+AddPackage refind # An EFI boot manager
+AddPackage reflector # A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
+AddPackage sof-firmware # Sound Open Firmware
+AddPackage sudo # Give certain users the ability to run some commands as root
+AddPackage texinfo # GNU documentation system for on-line information and printed output
+AddPackage ufw # Uncomplicated and easy to use CLI tool for managing a netfilter firewall
+
+
+# Wed 14 Feb 2024 00:34:24 AEDT - Unknown foreign packages
+
+AddPackage --foreign aconfmgr-git # A configuration manager for Arch Linux
+AddPackage --foreign informant # An Arch Linux News reader and pacman hook
+AddPackage --foreign pacman-cleanup-hook # hook to cleanup pacman cache keeping only the installed plus next most recent packages
+AddPackage --foreign pakbak-git # Back up the local pacman database when it changes
+AddPackage --foreign yay # Yet another yogurt. Pacman wrapper and AUR helper written in go.
