@@ -1,4 +1,4 @@
-root:x:0:root
+root:x:0:brltty,root
 sys:x:3:bin,jade
 mem:x:8:
 ftp:x:11:
@@ -16,9 +16,9 @@ nobody:x:65534:
 adm:x:999:daemon
 wheel:x:998:jade
 utmp:x:997:
-audio:x:996:
+audio:x:996:brltty
 disk:x:995:
-input:x:994:
+input:x:994:brltty
 kmem:x:993:
 kvm:x:992:
 lp:x:991:
@@ -26,8 +26,8 @@ optical:x:990:
 render:x:989:
 sgx:x:988:
 storage:x:987:
-tty:x:5:
-uucp:x:986:
+tty:x:5:brltty
+uucp:x:986:brltty
 video:x:985:
 users:x:984:
 groups:x:983:
@@ -49,4 +49,14 @@ avahi:x:973:
 polkitd:x:102:
 jade:x:1000:
 git:x:972:
-informant:x:1001:
+informant:x:1001:jade
+brlapi:x:971:brltty
+gdm:x:120:
+brltty:x:970:
+colord:x:969:
+flatpak:x:968:
+geoclue:x:967:
+rtkit:x:133:
+saned:x:966:
+usbmux:x:140:
+onepassword:x:1002:

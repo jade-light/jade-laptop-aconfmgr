@@ -231,3 +231,127 @@ CreateDir /lost+found 700
 
 SetFileProperty /usr/bin/groupmems group groups
 SetFileProperty /usr/bin/groupmems mode 2750
+
+
+
+
+
+# Mon 19 Feb 2024 00:13:07 AEDT - Unknown packages
+
+
+AddPackage baobab # A graphical directory tree analyzer
+AddPackage dmenu # Generic menu for X
+AddPackage epiphany # A GNOME web browser based on the WebKit rendering engine
+AddPackage evince # Document viewer (PDF, PostScript, XPS, djvu, dvi, tiff, cbr, cbz, cb7, cbt)
+AddPackage firefox # Standalone web browser from mozilla.org
+AddPackage foot # Fast, lightweight, and minimalistic Wayland terminal emulator
+AddPackage gdm # Display manager and login screen
+AddPackage gnome-backgrounds # Background images and data for GNOME
+AddPackage gnome-calculator # GNOME Scientific calculator
+AddPackage gnome-calendar # Simple and beautiful calendar application designed to perfectly fit the GNOME desktop
+AddPackage gnome-characters # A character map application
+AddPackage gnome-clocks # Clocks applications for GNOME
+AddPackage gnome-color-manager # GNOME Color Profile Tools
+AddPackage gnome-connections # Remote desktop client for the GNOME desktop environment
+AddPackage gnome-console # A simple user-friendly terminal emulator for the GNOME desktop
+AddPackage gnome-contacts # Contacts Manager for GNOME
+AddPackage gnome-control-center # GNOME's main interface to configure various aspects of the desktop
+AddPackage gnome-disk-utility # Disk Management Utility for GNOME
+AddPackage gnome-font-viewer # A font viewer utility for GNOME
+AddPackage gnome-keyring # Stores passwords and encryption keys
+AddPackage gnome-logs # A log viewer for the systemd journal
+AddPackage gnome-maps # A simple GNOME 3 maps application
+AddPackage gnome-menus # GNOME menu specifications
+AddPackage gnome-music # Music player and management application
+AddPackage gnome-remote-desktop # GNOME Remote Desktop server
+AddPackage gnome-session # The GNOME Session Handler
+AddPackage gnome-settings-daemon # GNOME Settings Daemon
+AddPackage gnome-shell # Next generation desktop shell
+AddPackage gnome-shell-extensions # Extensions for GNOME shell, including classic mode
+AddPackage gnome-software # GNOME Software Tools
+AddPackage gnome-system-monitor # View current processes and monitor system state
+AddPackage gnome-text-editor # A simple text editor for the GNOME desktop
+AddPackage gnome-tour # Guided tour and greeter for GNOME
+AddPackage gnome-tweaks # Graphical interface for advanced GNOME 3 settings (Tweak Tool)
+AddPackage gnome-user-docs # User documentation for GNOME
+AddPackage gnome-user-share # Easy to use user-level file sharing for GNOME
+AddPackage gnome-weather # Access current weather conditions and forecasts
+AddPackage grilo-plugins # A collection of plugins for the Grilo framework
+AddPackage gvfs # Virtual filesystem implementation for GIO
+AddPackage gvfs-afc # Virtual filesystem implementation for GIO (AFC backend; Apple mobile devices)
+AddPackage gvfs-goa # Virtual filesystem implementation for GIO (Gnome Online Accounts backend; cloud storage)
+AddPackage gvfs-google # Virtual filesystem implementation for GIO (Google Drive backend)
+AddPackage gvfs-gphoto2 # Virtual filesystem implementation for GIO (gphoto2 backend; PTP camera, MTP media player)
+AddPackage gvfs-mtp # Virtual filesystem implementation for GIO (MTP backend; Android, media player)
+AddPackage gvfs-nfs # Virtual filesystem implementation for GIO (NFS backend)
+AddPackage gvfs-smb # Virtual filesystem implementation for GIO (SMB/CIFS backend; Windows client)
+AddPackage loupe # A simple image viewer for GNOME
+AddPackage malcontent # Parental control support for applications
+AddPackage nautilus # Default file manager for GNOME
+AddPackage orca # Screen reader for individuals who are blind or visually impaired
+AddPackage rygel # UPnP AV MediaServer and MediaRenderer
+AddPackage simple-scan # Simple scanning utility
+AddPackage snapshot # Take pictures and videos
+AddPackage sushi # A quick previewer for Nautilus
+AddPackage sway # Tiling Wayland compositor and replacement for the i3 window manager
+AddPackage tecla # Keyboard layout viewer
+AddPackage totem # Movie player for the GNOME desktop based on GStreamer
+AddPackage tracker3-miners # Filesystem indexer and metadata extractor
+AddPackage wmenu # Efficient dynamic menu for Wayland and wlroots based Wayland compositors
+AddPackage xdg-desktop-portal-gnome # A backend implementation for xdg-desktop-portal for the GNOME desktop environment
+AddPackage xdg-user-dirs-gtk # Creates user dirs and asks to relocalize them
+AddPackage yelp # Get help with GNOME
+
+
+# Mon 19 Feb 2024 00:13:08 AEDT - Unknown foreign packages
+
+
+AddPackage --foreign 1password # Password manager and secure wallet
+
+
+# Mon 19 Feb 2024 00:13:08 AEDT - New / changed files
+
+
+CopyFile /etc/brlapi.key 640 '' brlapi
+CreateDir /etc/colord '' colord colord
+CreateLink /etc/fonts/conf.d/46-noto-mono.conf /usr/share/fontconfig/conf.default/46-noto-mono.conf
+CreateLink /etc/fonts/conf.d/46-noto-sans.conf /usr/share/fontconfig/conf.default/46-noto-sans.conf
+CreateLink /etc/fonts/conf.d/46-noto-serif.conf /usr/share/fontconfig/conf.default/46-noto-serif.conf
+CreateLink /etc/fonts/conf.d/66-noto-mono.conf /usr/share/fontconfig/conf.default/66-noto-mono.conf
+CreateLink /etc/fonts/conf.d/66-noto-sans.conf /usr/share/fontconfig/conf.default/66-noto-sans.conf
+CreateLink /etc/fonts/conf.d/66-noto-serif.conf /usr/share/fontconfig/conf.default/66-noto-serif.conf
+CreateLink /etc/fonts/conf.d/69-urw-bookman.conf /usr/share/fontconfig/conf.default/69-urw-bookman.conf
+CreateLink /etc/fonts/conf.d/69-urw-c059.conf /usr/share/fontconfig/conf.default/69-urw-c059.conf
+CreateLink /etc/fonts/conf.d/69-urw-d050000l.conf /usr/share/fontconfig/conf.default/69-urw-d050000l.conf
+CreateLink /etc/fonts/conf.d/69-urw-fallback-backwards.conf /usr/share/fontconfig/conf.default/69-urw-fallback-backwards.conf
+CreateLink /etc/fonts/conf.d/69-urw-fallback-generics.conf /usr/share/fontconfig/conf.default/69-urw-fallback-generics.conf
+CreateLink /etc/fonts/conf.d/69-urw-fallback-specifics.conf /usr/share/fontconfig/conf.default/69-urw-fallback-specifics.conf
+CreateLink /etc/fonts/conf.d/69-urw-gothic.conf /usr/share/fontconfig/conf.default/69-urw-gothic.conf
+CreateLink /etc/fonts/conf.d/69-urw-nimbus-mono-ps.conf /usr/share/fontconfig/conf.default/69-urw-nimbus-mono-ps.conf
+CreateLink /etc/fonts/conf.d/69-urw-nimbus-roman.conf /usr/share/fontconfig/conf.default/69-urw-nimbus-roman.conf
+CreateLink /etc/fonts/conf.d/69-urw-nimbus-sans.conf /usr/share/fontconfig/conf.default/69-urw-nimbus-sans.conf
+CreateLink /etc/fonts/conf.d/69-urw-p052.conf /usr/share/fontconfig/conf.default/69-urw-p052.conf
+CreateLink /etc/fonts/conf.d/69-urw-standard-symbols-ps.conf /usr/share/fontconfig/conf.default/69-urw-standard-symbols-ps.conf
+CreateLink /etc/fonts/conf.d/69-urw-z003.conf /usr/share/fontconfig/conf.default/69-urw-z003.conf
+CreateLink /etc/systemd/system/display-manager.service /usr/lib/systemd/system/gdm.service
+CreateLink /etc/systemd/user/default.target.wants/xdg-user-dirs-update.service /usr/lib/systemd/user/xdg-user-dirs-update.service
+CreateLink /etc/systemd/user/pipewire-session-manager.service /usr/lib/systemd/user/wireplumber.service
+CreateLink /etc/systemd/user/pipewire.service.wants/wireplumber.service /usr/lib/systemd/user/wireplumber.service
+CreateLink /etc/systemd/user/sockets.target.wants/gnome-keyring-daemon.socket /usr/lib/systemd/user/gnome-keyring-daemon.socket
+CreateLink /etc/systemd/user/sockets.target.wants/pipewire-pulse.socket /usr/lib/systemd/user/pipewire-pulse.socket
+CreateLink /etc/systemd/user/sockets.target.wants/pipewire.socket /usr/lib/systemd/user/pipewire.socket
+CopyFile /etc/group
+CopyFile /etc/group-
+CopyFile /etc/pacman.d/mirrorlist
+CopyFile /etc/passwd
+CopyFile /etc/passwd-
+CopyFile /etc/pkglist.txt
+
+
+# Mon 19 Feb 2024 00:13:08 AEDT - New file properties
+
+
+SetFileProperty /opt/1Password/1Password-BrowserSupport group onepassword
+SetFileProperty /opt/1Password/1Password-BrowserSupport mode 2755
+SetFileProperty /opt/1Password/1Password-KeyringHelper group onepassword
+SetFileProperty /opt/1Password/1Password-KeyringHelper mode 6755

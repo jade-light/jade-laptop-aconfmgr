@@ -17,3 +17,4 @@ uuidd:x:68:68::/:/usr/bin/nologin
 avahi:x:973:973:Avahi mDNS/DNS-SD daemon:/:/usr/bin/nologin
 polkitd:x:102:102:User for polkitd:/:/usr/bin/nologin
 jade:x:1000:1000::/home/jade:/usr/bin/bash
+git:x:972:972:git daemon user:/:/usr/bin/git-shell
