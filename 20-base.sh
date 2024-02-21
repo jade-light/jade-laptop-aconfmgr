@@ -355,3 +355,21 @@ SetFileProperty /opt/1Password/1Password-BrowserSupport group onepassword
 SetFileProperty /opt/1Password/1Password-BrowserSupport mode 2755
 SetFileProperty /opt/1Password/1Password-KeyringHelper group onepassword
 SetFileProperty /opt/1Password/1Password-KeyringHelper mode 6755
+
+
+
+
+# Thu 22 Feb 2024 01:49:05 AEDT - Unknown foreign packages
+
+
+AddPackage --foreign nordvpn-bin # NordVPN CLI tool for Linux
+AddPackage --foreign yay-debug # Detached debugging symbols for yay
+
+
+# Thu 22 Feb 2024 01:49:05 AEDT - New / changed files
+
+
+CopyFile /etc/group
+CopyFile /etc/group-
+CopyFile /etc/pacman.d/mirrorlist
+CopyFile /etc/pkglist.txt
