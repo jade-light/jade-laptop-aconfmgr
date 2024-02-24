@@ -11,3 +11,5 @@ UUID=0674-4EB4      	/efi      	vfat      	rw,relatime,fmask=0022,dmask=0022,cod
 # /dev/nvme0n1p4
 UUID=4307a4bb-67f6-46de-a4c7-e6460742c951	none      	swap      	defaults  	0 0
 
+# /dev/nvme0n1p3
+UUID=F2CA0AC0CA0A8159 /mnt/win ntfs-3g defaults 0 0

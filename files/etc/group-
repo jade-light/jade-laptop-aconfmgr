@@ -61,3 +61,4 @@ saned:x:966:
 usbmux:x:140:
 onepassword:x:1002:
 seat:x:965:
+nordvpn:x:964:

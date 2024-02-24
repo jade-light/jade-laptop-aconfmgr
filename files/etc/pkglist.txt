@@ -54,8 +54,13 @@ gvfs-nfs
 gvfs-smb
 informant
 intel-ucode
+iptsd
+libwacom-surface
+libwacom-surface-debug
 linux
 linux-firmware
+linux-surface
+linux-surface-headers
 loupe
 malcontent
 man-db
@@ -88,6 +93,7 @@ sudo
 sushi
 sway
 tecla
+tesseract-data-eng
 texinfo
 totem
 tracker3-miners
@@ -98,3 +104,5 @@ xdg-user-dirs-gtk
 yay
 yay-debug
 yelp
+zathura
+zathura-pdf-mupdf

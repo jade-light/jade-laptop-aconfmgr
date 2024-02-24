@@ -373,3 +373,36 @@ CopyFile /etc/group
 CopyFile /etc/group-
 CopyFile /etc/pacman.d/mirrorlist
 CopyFile /etc/pkglist.txt
+
+
+
+
+# Sat 24 Feb 2024 15:04:34 AEDT - Unknown packages
+
+
+AddPackage iptsd # Userspace daemon for Intel Precise Touch & Stylus
+AddPackage linux-surface # The Linux kernel and modules
+AddPackage linux-surface-headers # Headers and scripts for building modules for the Linux kernel
+AddPackage tesseract-data-eng # Tesseract OCR data (eng)
+AddPackage zathura # Minimalistic document viewer
+AddPackage zathura-pdf-mupdf # PDF support for Zathura (MuPDF backend) (Supports PDF, ePub, and OpenXPS)
+
+
+# Sat 24 Feb 2024 15:04:35 AEDT - Unknown foreign packages
+
+
+AddPackage --foreign libwacom-surface # Library to identify Wacom tablets and their features - Patched for Microsoft Surface devices
+AddPackage --foreign libwacom-surface-debug # Detached debugging symbols for libwacom-surface
+
+
+# Sat 24 Feb 2024 15:04:35 AEDT - New / changed files
+
+
+CopyFile /etc/mkinitcpio.d/linux-surface.preset
+CopyFile /etc/pacman.conf
+CreateLink /etc/systemd/system/default.target.wants/nordvpnd.service /usr/lib/systemd/system/nordvpnd.service
+CopyFile /etc/fstab
+CopyFile /etc/group
+CopyFile /etc/group-
+CopyFile /etc/pacman.d/mirrorlist
+CopyFile /etc/pkglist.txt
